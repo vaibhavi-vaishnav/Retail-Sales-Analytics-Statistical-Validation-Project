@@ -1,71 +1,70 @@
-📌 Overview
-This repository contains my work for Task-1 (Data Immersion & Wrangling) and Task-2 (Exploratory Data Analysis & Business Intelligence) completed as part of the ApexPlanet Software Pvt. Ltd. 60-Days Data Analytics Internship Program.
-The objective of these tasks is to understand the dataset, clean it, explore it, and extract actionable insights using Python, SQL, and visualization techniques.
+This repository contains all tasks completed as part of the 60-Day Data Analytics Internship at ApexPlanet Software Pvt. Ltd.
+Task 1 – Data Cleaning & Preparation
+Objective:
+Understand the raw retail dataset and prepare it for analysis.
 
-📘 Task-1: Data Immersion & Wrangling
-🎯 Objective
-Task-1 focuses on preparing the raw dataset for analysis by examining data quality, cleaning inconsistencies, and documenting metadata.
-✔ Key Steps Performed
-Loaded the dataset and performed initial familiarization
-Checked for:
-Missing values
-Duplicates
-Incorrect data types
-Cleaned the dataset:
-Filled missing values
-Removed duplicates
-Standardized formats
-Created a Revenue field (Quantity × UnitPrice)
-Built a structured Data Dictionary
-Exported the cleaned dataset for Task-2
+Work Done:
+Loaded and explored the dataset
+Handled missing values and duplicates
+Standardized data formats
+Created a Revenue column (Quantity × UnitPrice)
+Exported cleaned dataset for further analysis
 
-📁 Files in Task-1
-task1.ipynb – Data profiling, cleaning, and documentation
+Output:
+Cleaned dataset ready for analysis
 
-cleaned_dataset.csv – Final cleaned dataset
+Task 2 – Exploratory Data Analysis (EDA)
+Objective:
+Identify patterns, trends, and key insights from the cleaned data.
 
-data_dictionary.csv – Column definitions and data types
+Work Done:
+Generated descriptive statistics
+Created visualizations (line charts, bar charts, heatmaps)
+Analyzed monthly revenue trends
+Identified top-performing products
+Performed cohort analysis for customer retention
 
-📘 Task-2: Exploratory Data Analysis (EDA) & Business Intelligence
-🎯 Objective
-Task-2 involves exploring the cleaned dataset through visualizations, statistical summaries, and SQL-based business questions to derive meaningful insights.
-✔ Key Steps Performed
-A. Descriptive Statistics
-Summary of numerical and categorical features
-Missing value confirmation
-Data types and distributions
+Output:
+Insights about seasonality and customer behavior
 
-B. Univariate & Multivariate Analysis
-Histograms
-Count plots
-Scatter plots
-Pair plots
-Correlation heatmap
+Task 3 – Interactive Dashboard (Power BI)
+Objective:
+Build an interactive dashboard to present key business metrics.
 
-C. SQL Business Questions
-Using SQLite in Jupyter Notebook:
-Top products by revenue
-Top customers by spending
-Monthly revenue trends
-Country-level performance
-Highest-selling items
+Work Done:
+Defined KPIs (Revenue, Customers, Orders, AOV)
+Created monthly revenue trend visualization
+Built top products analysis
+Added cohort retention view
+Designed structured Power BI dashboard
 
-D. Dashboard Mock-up
-Designed a static BI Dashboard (PowerPoint/Slides) including:
-Revenue KPIs
-Top products
-Monthly trends
-Country performance
-Key insights
+Output:
+Interactive business dashboard
 
-📁 Files in Task-2
-task2_eda.ipynb – Complete EDA + SQL queries
-🔧 Tools & Technologies
-Python (Pandas, NumPy, Matplotlib, Seaborn)
+Task 4 – Statistical Validation & Business Storytelling
+Objective:
+Validate insights using statistical hypothesis testing.
+
+Work Done:
+Defined business question
+Formulated null and alternative hypotheses
+Applied Independent Two-Sample T-Test
+Interpreted p-value
+Developed business recommendations
+
+Result:
+Seasonal revenue increase is driven by higher transaction volume, not higher order value.
+
+Tools Used:
+Python (Pandas, NumPy, Matplotlib, Seaborn, SciPy)
 Jupyter Notebook
-SQLite / SQL
+Power BI
+GitHub
 
-🧑‍💻 Author
+Author:
 Vaibhavi Vaishnav
+Data Analytics Intern – ApexPlanet
+
 GitHub: https://github.com/vaibhavi-vaishnav
+
 LinkedIn: https://www.linkedin.com/in/vaibhavi-vaishnav-a58970375
